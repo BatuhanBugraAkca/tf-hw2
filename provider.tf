@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "batuakca-terraform-backend"  # AWS Console'da daha önce manuel oluşturduğun bucket
+    bucket = "batuakca-terraform-backend"  
     key    = "tf-hw2/terraform.tfstate"
     region = "us-east-1"
   }
